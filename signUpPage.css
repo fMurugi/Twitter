@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+}
+
+#signUpContainer{
+    width: 100%;
+   min-height: 100vh; 
+    /* background: black; */
+    display: flex;
+    flex-direction: column;
+}
+#signUpFooter{
+    /* background-color: grey; */
+    width: 100%;
+    /* height: 20%; */
+
+}
+#signUpContent{
+    display: flex;
+    flex-direction: row;
+    min-height: 90vh;
+
+}
+#signUpLeft{
+    width: 55%;
+    background-image:url(https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png) ;
+}
+#signUpLeft img{
+    /* height: 100%;
+    width: 100%; */
+    /* width: 40px;
+    background-color: transparent; */
+}
+.signUpTwitterLogo >path{
+    background-size: 100px 80px;
+    fill: rgb(255,255,255);
+   
+}
+#signUpRightContent{
+    margin:  70px 40px;
+    display: flex;
+    flex-direction: column;
+    align-content:  space-around;
+}
+#rightContent{
+    margin-top: 25px;
+}
+#rightTwitterLogo{
+    width: 80px;
+}
+#whatHappeningSignUp{
+    font-weight: 700;
+    font-size:64px;
+    color: black;
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    letter-spacing: -1.2px;
+}
+#joinTwitterSignUp{
+    font-weight: 700;
+    font-size:31px;
+    color: black;
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+#signUpRight button{
+    border-radius: 9999px;
+    height: 45px;
+   width: 350px;
+   font-size: 20px;
+   -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
+}
+#signUpRight button a{
+    text-decoration: none;
+    color:white;
+}
+
+.SignUpButton{
+    background-color: rgb(29 161 242);
+    color: white;
+    border: 0px solid black;
+    
+}
+.loginButton{
+    color: rgb(48, 185, 240);
+    background-color: white;
+    border: 1px solid grey;
+
+}
+
+.continueWithGoogle{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    width: 380px;
+    border: 1px solid grey;
+
+}
+.continueWithGoogle img{
+    width: 23px;
+    background-color: transparent;
+    vertical-align: baseline;
+    position: relative;
+    right: 5px;    
+}
+#signUpFooter{
+    
+}
+#footerContent{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+
+}
+#footerContent li{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footerContent a{
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+}
+#footerContent a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}

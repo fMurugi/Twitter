@@ -1,0 +1,563 @@
+.tweetpage{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    /* background-color: cadetblue; */
+    height: 100vh;
+    margin:5px,200px;
+    padding: 4px;
+   
+}
+.tweetpage > div{
+    background-color: white;
+    width: 400px;
+    padding: 0px;
+    margin: 0 20px ;
+    /* height:100%; */
+    align-items: stretch;
+}
+.middle{
+   flex-grow:1
+}
+.left{
+   
+}
+.menu{
+    list-style-type: none;
+    display:flex;
+    flex-direction: column;
+    /* width: 25%; */
+    height: 100%;
+    position: fixed;
+    margin-left: 6%;
+    background-color: transparent;
+}
+.menu1 li:hover{
+    color: rgb(29 161 242);
+    background-color:rgb(182, 227, 245);
+
+}
+.menu li {
+    display: flex;
+    align-items: center;
+    height:40px;
+    border-radius: 9999px;
+    background-color: transparent;
+    padding:6px 14px;
+    /* margin-top: 5px; */
+    margin-bottom: 5px;
+    font-size: 20px;
+    font: weight 2000px;;
+    width: fit-content;
+
+}
+li i{
+    margin-right: 15px;
+}
+.logo img{
+    width:40px;
+    display: inline-block;
+    
+}
+.SVG{
+    height:25px;
+}
+.more a{
+    margin-left: 15px;
+}
+.buttonTweet{
+    width: 200px;
+    height:40px;
+    color:white;
+    background-color: rgb(92, 157, 236);
+    border: none;
+    border-radius: 9999px;
+    font-size: 20px;
+}
+.user{
+    margin-top: 180px;
+    margin-bottom: 0px;
+}
+.user .account{
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.userName{
+    font-weight:lighter;
+    margin-left: 37px;
+    font-size: 16px;
+    margin-top:0px;
+}
+
+#more-o{
+    margin-left: 28px;
+}
+
+.middle{
+    margin-left: 28%;
+    margin-right: 28%;;
+    width: 4500px;
+    height: 100%;
+    /* margin-top: 10px; */
+    border: 1px solid rgb(247, 243, 243);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+.topNav{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+.topNav input{
+    border-radius: 9999px;
+    background-color: rgb(245 248 250);
+    margin-left: 15px;
+    margin-right: 15px;
+    width:400px;
+    height: 30px;
+    border: none;
+   
+}
+#exploreMainPic{
+    position: relative;
+    width: 450px;
+    color:white;
+}
+#exploreMainTopic{
+    position: absolute;
+    top:200px
+}
+#exploreTrends{
+    border: 1px solid rgb(247, 241, 241);
+    margin-top: 10px;
+    border-radius: ;
+    width: 450px;
+}
+#exploreTrendMainTopic{
+    font-weight: bold;
+    height: 40px;
+    border-bottom: 1px solid rgb(238, 233, 233);
+    
+  
+}
+#exploreTrendTopics{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid rgb(238, 233, 233) ;
+    /* margin: 0 10px; */
+    color:;
+    font-size: 14px;
+    font-weight: lighter;
+    
+}
+#exploreTrendTopics:hover{
+    background-color: rgb(245 248 250);
+    cursor: pointer;
+}
+#exploreTopicTrend{
+    font-weight: bold;
+}
+#exploreTopicDetails ul{
+    list-style-type: none;
+}
+#exploreShowMore{
+    color:rgb(29 161 242) ;
+    height:40px;
+    
+}
+#exploreShowMore:hover{
+    cursor: pointer;
+    background-color:rgb(245 248 250) ;
+}
+#exploreShowMore  a{
+    text-decoration: none;
+    margin:0px 40px;
+    color:rgb(29 161 242);
+}
+#what_is_happening{
+    width:450px;
+    border: 1px solid rgb(247, 241, 241);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+#whatIsHappeningMainTopic{
+    font-weight: bolder;
+    height: 40px;
+    border-bottom:1px solid rgb(247, 241, 241) ;
+}
+#whatIsHappeningTopic{
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom:1px solid rgb(238, 233, 233) ;
+    align-items: center;
+    flex-basis: auto;
+}
+#whatIsHappeningTopDetail{
+   flex-grow: 3;
+   margin-left:30px;
+}
+#newsSource{
+    font-weight: 10px;
+    font-size:15px;
+    color: rgb(170, 184, 194);
+}
+#newsSummary{
+    font-weight:bolder;
+    font-size: ;
+    color:rgb(17, 3, 3);
+
+}
+#whatIsHappeningRight {
+  width:60px;
+  height:60px;
+  
+  
+    
+  
+}
+#whatIsHappeningRight img{
+    width: 60px;
+    margin-left:-70px;
+    border-radius: 5%;
+}
+#moreMiddle{
+    color: rgb(115, 203, 238);
+}
+#arrowMiddle{
+    color: rgb(115, 203, 238);
+}
+.horizMenu{
+    display:block;
+    overflow: hidden;
+   
+}
+.horizMenu li{
+    list-style-type: none;
+    font-size:20px;
+    display: block;
+    float: left;
+    padding:14px 16px;
+  
+
+}
+.horizMenu li:hover{
+    color:rgb(53, 188, 241);
+    background-color: rgb(190, 233, 250);
+    cursor: pointer;
+}
+.stories{
+    border: 1px solid rgb(245 248 250);   
+    margin-top: 10px;
+    height:500px;
+}
+.stories:hover{
+    background-color: rgb(225 232 237);
+}
+.storiesLogo img{
+    width: 40px;
+   
+    
+}
+.story{
+    margin-top: 0;
+    
+}
+.pageDetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-top: 10px;
+   
+}
+.newsDetail{
+
+}
+.storyDescription{
+    text-decoration: none;
+    margin-left: 45px;
+}
+.storyVid{
+    margin-left: 45px;
+    
+}
+.storyVid iframe,img{
+    width: 450px;
+    /* height: 400px; */
+    margin-top: 20px;
+    display: block;
+    float:left;
+    border-radius: 5px;
+
+  
+}
+.storyVid iframe{
+    width: 450px;
+    /* height: 400px; */
+    margin-top: 20px;
+    display: block;
+    float:left;
+    border-radius: 5px;
+
+  
+}
+.storyMenu ul{
+   list-style-type: none;
+    
+}
+.storyMenu ul img{
+    width: 15px;
+    height:15px;
+    display: block;
+    float: left;
+    padding:10px 45px;
+    color:rgb(216, 213, 213)
+
+}
+
+
+.storyMenu ul img:hover{
+    color: rgb(172, 221, 240);
+    background-color: rgb(150, 214, 240);
+    border-radius: 50%;
+}
+
+
+
+.right{
+    /* margin-left:64%; */
+    width:70%;
+    margin-right:20px;
+    margin-top:0;
+    
+   
+
+}
+
+.trends{
+    background-color:rgb(245 248 250) ;
+    height: fit-content;
+    border: none;
+    border-radius: 5%;
+    margin-right: 50px;
+    margin-top: 0;
+    
+   
+}
+.trends li{
+    list-style-type: none;
+   
+}
+.trends ul:hover{
+    background-color: rgb(225 232 237);
+    border-top:1px solid rgb(225 232 237);
+    cursor:pointer;
+}
+.trends ul{
+    margin-top: 4px;
+    border-top:1px solid rgb(225 232 237);
+    
+    cursor: pointer;
+}
+.trends ul span{
+    font-weight: bold;
+}
+.trends  ul li  .material-icons{
+    position: relative;
+    left:80px;
+    
+}
+.showMore{
+    
+    text-decoration: none;
+    margin-bottom: 30px;
+    height:40px;
+    padding-bottom: px;
+   
+}
+.trendTopic{
+    position: relative;
+    left:40px;
+    top:10px;
+    border-bottom: 1px solid rgb(225 232 237);
+    height:40px
+}
+.trendTopic > i{
+    color: rgb(191, 233, 245);
+    position: relative;
+    left:206px;
+    top:-38px;
+    background-color: transparent;
+    height:30px;
+    width: 30px;
+    border-radius: 50%;
+    
+}
+.trendTopic > i:hover {
+    background-color: rgb(172, 223, 243);
+}
+.whoToFollow{
+    background-color:rgb(245 248 250) ;
+    height: fit-content;
+    border: none;
+    border-radius: 5%;
+    margin-right: 50px;
+    margin-top: 0px;
+    padding:5px
+   
+}
+.Follow{
+    list-style: none;
+    /* position: relative;
+    left: 80px;
+    bottom:60px; */
+    margin-top: 4px;
+    border-top:1px solid rgb(225 232 237) ;
+    display:flex;
+    flex-direction: row; 
+    align-items: center;
+    flex-basis: auto;
+    box-sizing: border-box;
+    justify-content:space-around;
+    font-size: 15px;
+    margin-left: 4px;
+    
+}
+.Follow:hover{
+    background-color:rgb(225 232 237) ;
+    cursor: pointer;
+}
+.ToFollowTopic{
+    position: relative;
+    left:40px;
+}
+.firstPart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    position: relative;
+    left: 40px;
+}
+.secondPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-basis: auto;
+    flex-grow: 1;
+    align-items: center;
+
+}
+.secondPart div li{
+    max-width:100% ;
+    flex-shrink: 1;
+}
+.Follow li , .showMore{
+    list-style-type: none;
+}
+.whoToFollow ul:hover{
+    
+}
+.citizenLogo, .bitcoinLogo,.dp{
+    width:50px;
+   height:50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    position: relative;
+    right:4px
+
+    
+    
+    
+}
+.citizenLogo img{
+    width:50px;
+    /* margin-right: 5px; */
+    position: relative;
+    right:4px
+    
+}
+.bitcoinLogo{
+    width: 50px;
+    position: relative;
+    right:4px
+}
+.followButton button{
+    border-radius: 9999px;
+    color: rgb(48, 185, 240);
+    border: 1px solid rgb(48, 185, 240) ;
+
+}
+.dp i{
+    
+    align-self: center;
+    width:400px;
+    font-size:40px;
+    color:grey;
+    position: relative;
+    left: 4px;
+    
+
+}
+.followShowMore{
+    position: relative;
+    right:110px;
+    text-decoration: none;
+}
+
+.topicsToFollow{
+    background-color: rgb(245 248 250);
+    height: fit-content;
+    border: none;
+    border-radius: 5%;
+    margin-right: 50px;
+    margin-top: 20px;
+    padding:5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title{
+    font-weight: bold;
+    position: relative;
+
+}
+#topic ul li{
+   list-style-type: none;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   width:130px;
+}
+#topic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.rightPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-basis: auto;
+    flex-grow: 1;
+    align-items: center;
+    
+   
+   
+}
+.topicsButton button{
+    color: rgb(90, 197, 240);
+    border-radius: 9999px;
+    border:1px solid rgb(48, 185, 240) ;
+    display: flex;
+    justify-self: flex-end;
+}

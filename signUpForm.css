@@ -1,0 +1,286 @@
+body{
+    margin: 0;
+}
+
+#signUpContainer{
+    width: 100%;
+   min-height: 100vh; 
+    /* background: black; */
+    display: flex;
+    flex-direction: column;
+}
+#signUpFooter{
+    /* background-color: grey; */
+    width: 100%;
+    /* height: 20%; */
+
+}
+#signUpContent{
+    display: flex;
+    flex-direction: row;
+    min-height: 90vh;
+
+}
+#signUpLeft{
+    width: 55%;
+    background-image:url(https://abs.twimg.com/sticky/illustrations/lohp_en_1302x955.png) ;
+}
+#signUpLeft img{
+    /* height: 100%;
+    width: 100%; */
+    /* width: 40px;
+    background-color: transparent; */
+}
+
+.signUpTwitterLogo >path{
+    background-size: 100px 80px;
+    fill: rgb(255,255,255);
+   
+}
+#signUpRightContent{
+    margin:  70px 40px;
+    display: flex;
+    flex-direction: column;
+    align-content:  space-around;
+}
+#rightContent{
+    margin-top: 25px;
+}
+#rightTwitterLogo{
+    width: 80px;
+}
+#whatHappeningSignUp{
+    font-weight: 700;
+    font-size:64px;
+    color: black;
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    letter-spacing: -1.2px;
+}
+#joinTwitterSignUp{
+    font-weight: 700;
+    font-size:31px;
+    color: black;
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+#signUpRight button{
+    border-radius: 9999px;
+    height: 45px;
+   width: 350px;
+   font-size: 20px;
+   -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif
+}
+#signUpRight button a{
+    text-decoration: none;
+    color:white;
+}
+
+.SignUpButton{
+    background-color: rgb(29 161 242);
+    color: white;
+    border: 0px solid black;
+    
+}
+.loginButton{
+    color: rgb(48, 185, 240);
+    background-color: white;
+    border: 1px solid grey;
+
+}
+
+.continueWithGoogle{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    width: 380px;
+    border: 1px solid grey;
+
+}
+.continueWithGoogle img{
+    width: 23px;
+    background-color: transparent;
+    vertical-align: baseline;
+    position: relative;
+    right: 5px;    
+}
+#signUpFooter{
+    
+}
+#footerContent{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+
+}
+#footerContent li{
+    text-decoration: none;
+}
+
+#footerContent a{
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+}
+#footerContent a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+#signUpPage{
+    z-index: -1;
+    position: relative;
+    left:0px;
+    top: 0px;
+    background-color: rgb(201, 196, 196);
+
+}
+#signUpForm{
+    background-color: white;
+    width: 600px;
+    height: 650px;
+    position: absolute;
+    top: 50px;
+    left: 25%;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+}
+#signUpFormTwitterLogo{
+    width: 40px;
+}
+.FormTwitterLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#formDetailsContainer{
+    height: 100%;
+}
+#formDetails{
+    background-color: white;
+    margin: 15px 25px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+#createAccount{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+.name{
+    width: 99%;
+    height: 60px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(206, 203, 203);
+    border-radius: 3%;
+    font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    color: rgb(29 161 242);
+    font-size: 17px;
+}
+.phone{
+    width: 99%;
+    height: 60px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(211, 207, 207);
+    border-radius: 2%;
+    font-size: 17px;
+    font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+
+}
+#UseEmail{
+    margin-bottom: 25px;
+
+}
+.formUseEmail >a{
+    text-decoration: none;
+    color: rgb(29 161 242);
+    font-size: 14px;
+    font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+}
+.formUseEmail >a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.formBirthDate{
+    font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+}
+#birthDate{
+    margin-top: 35px;
+}
+#calender{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#month{
+    height: 55px;
+    border: 0px solid rgb(211, 207, 207);
+    width: 250px;
+}
+#day{
+    height: 55px;
+    border: 0px solid rgb(211, 207, 207);
+    flex-grow: 0;
+    width: 100px;
+
+}
+#year{
+    height: 55px;
+    border: 0px solid rgb(211, 207, 207);
+    flex-grow: 0;
+    width: 150px;
+
+}
+#selectMonth{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(211, 207, 207);
+    border-radius: 5%;
+
+
+}
+#selectMonth{
+
+}
+#selectDay{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(211, 207, 207);
+    border-radius: 5%;
+
+}
+#selectYear{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(211, 207, 207);
+    border-radius: 5%;
+
+}
+#next{
+    margin-top: 70px;
+    background-color: rgb(40, 183, 240);
+    border: none;
+    border-radius: 9999px;
+    color: white;
+    min-height: 40px;
+    font-size: 15px;
+    font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
